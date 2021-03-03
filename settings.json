@@ -1,0 +1,155 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "vetur.validation.script": false,
+    "vetur.validation.style": false,
+    "vetur.validation.template": false,
+    "editor.tabSize": 2,
+    "vetur.format.options.useTabs": true,
+    "eslint.format.enable": true,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false,
+      "source.organizeImports": false
+    },
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "vim.handleKeys": {
+      "<C-d>": true,
+    },
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindings": [
+      {
+        "before": ["leader", "t"],
+        "commands": ["workbench.action.terminal.focus"]
+      },
+      {
+        "before": ["leader", "u", "t"],
+        "commands": ["editor.emmet.action.updateTag"]
+      },
+      {
+        "before": [",", "c"],
+        "commands": [
+          "workbench.action.files.copyPathOfActiveFile"
+        ]
+      },
+      {
+        "before": ["<leader>", "m"],
+        "commands": [
+          "bookmarks.toggle"
+        ]
+      },
+      {
+        "before": ["<leader>", "b"],
+        "commands": [
+          "bookmarks.list"
+        ]
+      },
+      {
+        "before": ["Z", "Z"],
+        "commands": [
+          ":wq"
+        ]
+      },
+      {
+        "before":["<C-n>"],
+        "commands": [
+            ":nohl",
+        ]
+      },
+      {
+        "before": ["leader", "w"],
+        "commands": [
+            "workbench.action.files.save",
+        ]
+      },
+      {
+        "before": ["leader", "/"],
+        "commands": [
+            "editor.action.commentLine"
+        ]
+      },
+      {
+        "before": ["leader", "p"],
+        "commands": [
+          "workbench.action.quickOpen"
+        ]
+      },
+      {
+        "before": ["<C-k>"],
+        "commands": [
+          "editor.action.moveLinesUpAction"
+        ]
+      },
+      {
+        "before": ["<C-j>"],
+        "commands": [
+          "editor.action.moveLinesDownAction"
+        ]
+      },
+    ],
+    "vim.visualModeKeyBindings": [
+      {
+        "before": ["leader", "p"],
+        "commands": [
+          "workbench.action.quickOpen"
+        ]
+      },
+      {
+        "before": ["leader", "w"],
+        "commands": [
+            "workbench.action.files.save",
+        ]
+      },
+      {
+        "before": ["leader", "/"],
+        "commands": [
+            "editor.action.commentLine"
+        ]
+      },
+      {
+        "before": ["<C-k>"],
+        "commands": [
+          "editor.action.moveLinesUpAction"
+        ]
+      },
+      {
+        "before": ["<C-j>"],
+        "commands": [
+          "editor.action.moveLinesDownAction"
+        ]
+      },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+      {
+        "before": [
+            "p",
+        ],
+        "after": [
+            "p",
+            "g",
+            "v",
+            "y"
+        ]
+      }
+    ],
+    "vim.leader": " ",
+    "extensions.ignoreRecommendations": false,
+    // "vim.vimrc.enable": true,
+    // "vim.overrideCopy": false,
+    // "vim.replaceWithRegister": true,
+    "vim.useSystemClipboard": true,
+    "emmet.includeLanguages": {
+      "html-eex": "html",
+      "html-leex": "html"
+    },
+    "explorer.confirmDelete": false,
+    "go.useLanguageServer": true,
+    "explorer.confirmDragAndDrop": false,
+}
